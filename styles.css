@@ -1,0 +1,58 @@
+/* CSS properties resource: https://www.w3schools.com/cssref/default.asp */
+
+* {
+  /* transition animates the change of a specified property over a period of time. All means any property chagnes.
+  Resource: https://css-tricks.com/almanac/properties/t/transition/ */
+  transition: all 1s;
+}
+
+/* pseudo classes are used to define the state of an element.
+Resource: https://css-tricks.com/pseudo-class-selectors/ */
+/* h1:hover {
+  color: blue;
+  transition: background-color 2s;
+} */
+
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: "jost";
+  margin: 0; /* Remove default margin from body. */
+  overflow: hidden; /* Any content that overflows from the body will be hidden */
+}
+
+/* Demo for overflow */
+/* overflow: https://css-tricks.com/almanac/properties/o/overflow/ */
+/* h1 {
+  border: 5px solid red;
+  font-size: 72px;
+  height: 30px;
+  overflow: scroll;
+  overflow: hidden;
+  overflow: visible;
+  width: 50px;
+} */
+
+input {
+  /* The display property specifies if or how an element is displayed. The none value is used to hide an element without deleting it. */
+  display: none;
+}
+
+.file-upload {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* The cursor property specifies what the mouse will look like. */
+  cursor: pointer;
+  /* Not necessary here but you can check it out. Resource: https://css-tricks.com/box-sizing/ */
+  box-sizing: border-box;
+  /* The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning. Flex Zombies: https://mastery.games/flexboxzombies/ */
+  display: flex;
+  height: 200px;
+  /* Center content vertically. */
+  align-items: center;
+  /* Center content horizontally. */
+  justify-content: center;
+}
+
+#buttons {
+  text-align: center;
+}
